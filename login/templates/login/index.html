@@ -1,0 +1,18 @@
+{% load static %}
+{% include "header.html" %}
+<script type="text/javascript" src="{% static "login_ajax.js" %}"></script>
+<title>Sendfire- Login Page</title>
+</head>
+<body>
+<form action="" method="post" id="login_form">
+	{% csrf_token %}
+	<label for="username">Username:</label>
+	<input type="text" name="username" id="username"></br>
+	<label for="email">Email:</label>
+	<input type="text" name="email" id="email"></br>
+	<label for="password">Password:</label>
+	<input type="password" name="password" id="password"></br>
+	<input type="submit" value="Login">
+</form>
+</body>
+</html>
