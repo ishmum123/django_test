@@ -31,23 +31,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-<<<<<<< HEAD
     'login.apps.LoginConfig',
     'polls.apps.PollsConfig',
     'project_home.apps.ProjectHomeConfig',
-=======
     'polls.apps.PollsConfig',
->>>>>>> 22a89186b391d6ae918230b8013bb4588c9a4735
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'rest_framework',
-=======
->>>>>>> 22a89186b391d6ae918230b8013bb4588c9a4735
 ]
 
 MIDDLEWARE = [
@@ -129,10 +123,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-<<<<<<< HEAD
-
 STATICFILES_DIRS = [
 	os.path.join(BASE_DIR, "static"),
 ]
-=======
->>>>>>> 22a89186b391d6ae918230b8013bb4588c9a4735
